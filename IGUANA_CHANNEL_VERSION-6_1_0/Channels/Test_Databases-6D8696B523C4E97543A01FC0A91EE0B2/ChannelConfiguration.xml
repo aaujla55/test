@@ -1,0 +1,28 @@
+<channel
+   name="Test Databases"
+   guid="6D8696B523C4E97543A01FC0A91EE0B2"
+   description="Test various database connections"
+   start_automatically="false"
+   logging_level="2"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="Test_Databases-From-AbbaarbjXYlzSq"
+      commit_id="21d620240731aaaf7cacf4f3565746c0d36306c7"
+      commit_comment="test"
+      poll_time="10000">
+   </from_mapper>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true"
+      translator_guid="Test_Databases-Filter-9eKKTjVRt0UfEp">
+   </message_filter>
+</channel>
